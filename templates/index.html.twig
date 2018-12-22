@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>REST Countries</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <main role="main">
+                <section id="search">
+                    <form class="search-form" action="get">
+                        <input type="text" id="q" name="q" placeholder="Enter a country name or code..." aria-describedby="search-btn">
+                        <button type="submit" id="search-btn">
+                            <span class="sr-only">Search</span>
+                            <span aria-hidden="true"><i class="fa fa-search"></i></span>
+                        </button>
+                    </form>
+                </section>
+                <section id="results"></section>
+            </main>
+            <footer class="results-meta hidden"></footer>
+        </div>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
