@@ -1,6 +1,10 @@
 # REST Countries API
 
-This is an example app to fetch country data that uses a micro framework I made called [Bitty](https://github.com/bittyphp/bitty). It also uses [Guzzle](https://github.com/guzzle/guzzle) to make remote HTTP requests.
+This is an example app to fetch country data by name or ISO code.
+
+The JavaScript (ES6) and CSS are vanilla because they're small in size and don't need framework bloat to support them. [Guzzle](https://github.com/guzzle/guzzle) is used to make remote HTTP requests to the [REST Countries API](https://restcountries.eu/). The PHP framework is a microframework I made called [Bitty](https://github.com/bittyphp/bitty).
+
+The PHP code follows [PSRs](https://www.php-fig.org/psr/), is fully tested via [PHPUnit](https://github.com/sebastianbergmann/phpunit), and uses [PHPStan](https://github.com/phpstan/phpstan) cranked to the max to prevent bugs.
 
 ## To View
 
